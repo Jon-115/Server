@@ -1,9 +1,9 @@
 var cors_proxy = require('cors-anywhere');
 
 // Listen on a specific host via the HOST environment variable
-var host = '127.0.0.1';
+var host = 'https://tiny-platypus-800754.netlify.app';
 // Listen on a specific port via the PORT environment variable
-var port = 8080;
+// var port = 8080;
 
 
 cors_proxy.createServer({
