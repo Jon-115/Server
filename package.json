@@ -3,7 +3,7 @@
     "cors-anywhere": "^0.4.4"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "name": "server",
   "version": "1.0.0",
