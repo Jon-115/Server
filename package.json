@@ -3,7 +3,21 @@
     "cors-anywhere": "^0.4.4"
   },
   "scripts": {
-    "start" : "node app.js"
- }
+    "start": "node app.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jon-115/Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jon-115/Server/issues"
+  },
+  "homepage": "https://github.com/Jon-115/Server#readme",
+  "description": ""
 }
-
