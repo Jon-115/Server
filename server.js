@@ -13,6 +13,6 @@ cors_proxy.createServer({
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2'],
     setHeader:{'Access-Control-Allow-Origin':'*'},
-}).listen(host, function() {
+}).listen(process.env.PORT || 3001, function() {
     console.log('Running CORS Anywhere on ' + host);
 });
