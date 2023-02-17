@@ -1,7 +1,7 @@
 var cors_proxy = require('cors-anywhere');
 
 // Listen on a specific host via the HOST environment variable
-var host = 'djdogserver2.herokuapp.com';
+var host = 'https://railway.app/railway.schema.json';
 // Listen on a specific port via the PORT environment variable
 // var port = 8080;
 
